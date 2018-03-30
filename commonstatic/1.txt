@@ -1,0 +1,6 @@
+﻿PMID         Pubdate         Source         Author         Title               PubType         FullJournalName          Abstract
+['32123']['1978 Nov']['Gut']['Guth PH', 'Smith E']['Histamine receptors in the gastric microcirculation.']['Journal Article']['Gut'][
+The types and functions of histamine receptors in the submucosal arterioles of the corpus and antrum of the cat and rat stomach were studied using an in vivo microscopy technique. Change in arteriolar diameter in response to superfusion of histamine with and without antagonists was measured by an image-splitting technique. H1 and H2 histamine receptors subserving vasodilatation were demonstrated in both the antral and corpus submucosal arterioles of the cat and rat. However, the H1 effect was predominant in the antrum (the H2 antagonist inhibited histamine dilatation only in the presence of the H1 antagonist), while H1 and H2 effects were approximately equal and independent in the corpus.
+]
+
+这个文件仅仅是用一个样例来说明所爬取文献信息的格式，真实信息还请下载源文件.

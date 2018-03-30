@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+a
+{
+	text-decoration: none;
+}
+link {
+    display: none;
+}
+html {
+    color: #000;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+body {
+	background-image:url(../img/background.jpg);
+    height: 100%;
+    min-width: 1000px;
+    text-align: center;
+}
+body, button, input, select, textarea {
+    font: 12px arial; 
+}
+#wrapper {
+    height: 100%;
+}
+#head {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 768px;
+}
+.is-lite #head {
+    min-height: 600px;
+}
+#s_top_wrap {
+    position: absolute;
+    z-index: 99;
+    min-width: 1000px;
+	height: 32px;
+    width: 100%;
+}
+.s-skin-hasbg .s-top-wrap {
+    background-image: linear-gradient(rgba(15,25,50,.3) 0,rgba(15,25,50,.3) 100%);
+}
+.s-center-box {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+#u_sp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 590px;
+    font-size: 13px;
+    text-align: right;
+    color: #999;
+}
+.mnav {
+    font-weight: bold;
+}
+.s-sp-menu a {
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+	margin-right:10px;
+    color: #555;
+    text-decoration: underline;
+    outline: none;
+    display: inline-block;
+    text-shadow: none;
+}
+#head_wrapper {
+    position: relative;
+    height: 38.2%;
+    min-height: 293px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#head_wrapper.s-ps-islite .fm {
+    position: absolute;
+    bottom: 0px;
+}
+#head_wrapper.s-ps-islite .s_form {
+    position: relative;
+    z-index: 1;
+}
+#head_wrapper.s-ps-islite .s-p-top {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    height: 181px;
+}
+#head_wrapper .s-p-top {
+    height: 61.8%;
+    min-height: 181px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+#head_wrapper.s-ps-islite #s_lg_img {
+    position: static;
+    margin: 33px auto 0 auto;
+}
+.s_form {
+    width: 641px;
+    height: 100%;
+    min-height: 293px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    z-index: 100;
+}
+.s_form_wrapper {
+    height: 100%;
+	min-height: 293px;
+}
+#s_lg_img {
+	border:0;
+    width: 270px;
+    height: 129px;
+    bottom: 10px;
+	opacity:0.7;
+    left: 50%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+#form {
+    z-index: 1;
+}
+.s-down .s_btn_wr, .s_ipt_wr, .s_btn_wr {
+    float:left;
+    zoom: 1;
+    vertical-align: top;
+}
+.soutu-env-newindex .quickdelete-wrap {
+    position: relative;
+}
+.s-skin-hasbg .soutu-env-newindex.soutu-env-nomac #kw {
+    width: 480px!important;
+    padding-right: 50px!important;
+}
+.s-skin-hasbg #kw {
+    padding: 10px 9px 10px 7px;
+    border: 0;
+    background-image: none;
+    height: 20px;
+    line-height: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+#kw {
+    margin: 0;
+}
+#head_wrapper.s-down #kw, #kw {
+    width: 521px;
+    height: 20px;
+    padding: 9px 7px;
+    font: 16px arial;
+    border: 1px solid #b8b8b8;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    vertical-align: top;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn {
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.btn {
+    cursor: pointer;
+    width: 104px;
+    height: 40px;
+    line-height: 38px;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    color:  black;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.btn_wr {
+	background-image: url(../img/button.png);
+	zoom:1;
+	vertical-align:top;
+    width: 104px;
+    height: 40px;
+    border: 0;
+}
+
+#link
+{
+    font:bold 20px  "Courier New", Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+
+
+
+
+
+
+
+
